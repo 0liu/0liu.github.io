@@ -39,6 +39,18 @@
         <!-- <ul class="projects"> -->
         <ul style="list-style-type:disc">    
 
+          <!-- Build LOB -->
+          <li>
+            <h2><a href="https://github.com/0liu/BuildLOB" target="_blank">Build LOB</a></h2>
+            
+            Limit order book (LOB) is widely used as a fundamental data source for algorithmic high-frequency trading in financial markets. Its dynamics and features are actively explored to build stochastic and predictive models. Building LOB is probably the single most important component of a trading system. Because the data structure chosen to represent the limit order book will be the primary source of market information for trading models, it is important to make it both absolutely correct and extremely fast.
+
+            <p>This library provides an efficient implementation in C++ to generate order book data. It builds and updates multiple-level aggregated order books from raw order updates, which include adding, deleting or modifying an order. The design goal is to implement the three main operations (add, delete, modify) in O(1) time while making it possible for the trading model to efficiently ask questions like “what are the best bid and offer?”, “how much volume is there between prices A and B?” or “what is order X’s current position in the book?”</p>
+
+            <p>For details please visit: <a href="https://github.com/0liu/BuildLOB" target="_blank">https://github.com/0liu/BuildLOB</a></p>
+          </li>
+
+
           <!-- BayesRobotLoc -->
           <li>
             <h2><a href="https://github.com/0liu/BayesRobotLoc" target="_blank">BayesRobotLoc</a></h2> is a C++11 simulation of Bayes filter

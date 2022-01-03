@@ -1,0 +1,100 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Machine Learning</title>
+    <meta id="viewport" name="viewport" content="width=500" />
+
+    <link rel="stylesheet" href="../theme/css/normalize.css" type="text/css" />
+    <link rel="stylesheet" href="../theme/css/base.css" type="text/css" />
+    <link rel="stylesheet" href="../theme/css/code.css" type="text/css" />
+
+    <link rel="icon" type="image/png" href="../theme/images/avatar.png" sizes="200x200">
+    <link rel="icon" type="image/png" href="../theme/images/favicon.png" sizes="32x32">
+  </head>
+
+
+  <body>
+
+    <div class="content">
+
+      <header>
+        <img src="../theme/images/avatar.jpg" alt="me">
+        <h1><a href="../index.html">Ning Liu</a></h1>
+        <ul>
+          <li><a href="../aboutme/index.html">About Me</a></li>
+          <li><a href="../code/index.html">Code</a></li>
+          <li><a href="./index.html">Machine Learning</a></li>
+          <li><a href="../signalprocessing/index.html">Signal Processing</a></li>
+          <li><a href="../index.html">Contact Me</a></li>
+        </ul>
+      </header>
+
+      <section>
+
+        <p>
+          Data science and predictive modeling code repo on GitHub: <a href="https://github.com/0liu/machine-learning" target="_blank"><b>machine-learning</b></a>
+        </p>
+
+        <!-- <ul class="projects"> -->
+        <ul style="list-style-type:disc">    
+
+          <!-- Catch Joe -->
+
+            <a href="https://github.com/0liu/machine-learning/tree/master/00_catch_joe" target="_blank"><h1>Catch Joe</h1></a>
+            <p><b>Mission</b>: Given a dataset of users activities of an online system, build a machine learning model that can identify a specific user with user_id=0 (codename Joe).</p>
+            <p><b>Key features</b>: Vectorized site visiting records, with TF-IDF N-Gram normalized to keep each user's site visiting order; User demographic features and client systems.</p>
+            <p><b>Model</b>: Random forest, gradient boosting, DNN.
+            <p><b>GitHub</b>: <a href="https://github.com/0liu/machine-learning/tree/master/00_catch_joe" target="_blank">/machine-learning/tree/master/00_catch_joe</a></p>
+            <p><b>Notebook</b>: <a href="https://nbviewer.org/github/0liu/machine-learning/blob/master/00_catch_joe/catch_joe.ipynb" target="_blank">[catch_joe.ipynb]</a></p>
+            <a href="https://github.com/0liu/machine-learning/tree/master/00_catch_joe" target="_blank"><img src="./catch_joe.png" width=480 alt="Catch Joe"></img> </a>
+            <br/> <br/>
+
+          <!-- Web traffic time series forecasting -->
+            <a href="https://github.com/0liu/machine-learning/tree/master/02_web_traffic_time_series_forecasting" target="_blank"><h1>Web Traffic Time Series Forecasting</h1></a>
+            <p><b>Mission</b>: This 2017 Kaggle competition aims at the problem of forecasting multiple time series, the future web traffic for approximately 145,000 Wikipedia articles.</p>
+            <p><b>Key features</b>: Seasonality; log1p transformed visits; The medians of target lags.</p>
+            <p><b>Model</b>: DNN with bagging. Wavenet.
+            <p><b>GitHub</b>: <a href="https://github.com/0liu/machine-learning/tree/master/02_web_traffic_time_series_forecasting" target="_blank">/machine-learning/tree/master/02_web_traffic_time_series_forecasting</a></p>
+            <p><b>Exploratory Data Analysis Notebook</b>: <a href="https://nbviewer.org/github/0liu/machine-learning/blob/master/02_web_traffic_time_series_forecasting/web_traffic_forecasting_EDA.ipynb" target="_blank">[web_traffic_forecasting_EDA.ipynb]</a></p>
+            <p><b>Modeling Notebook</b>: <a href="https://nbviewer.org/github/0liu/machine-learning/blob/master/02_web_traffic_time_series_forecasting/web_traffic_forecasting_DNN.ipynb" target="_blank">[web_traffic_forecasting_DNN.ipynb]</a></p>
+            <br/>
+            <a href="https://github.com/0liu/machine-learning/tree/master/02_web_traffic_time_series_forecasting" target="_blank"><img src="./web_traffic_time_series_forecasting_dnn.png" width=480 alt="Web Traffic Time Series Forecasting"></img> </a>
+            <br/><br/>
+
+          <!-- M5 Forecasting - Accuracy -->
+            <a href="https://github.com/0liu/machine-learning/tree/master/01_m5-forecasting-accuracy" target="_blank"><h1>M5 Forecasting - Accuracy</h1></a>
+            <p><b>Mission</b>: The 2020 Kaggle competition uses hierarchical sales data from Walmart, the largest company by revenue, to forecast daily sales for the next 28 days.</p>
+            <p><b>Key features</b>: Grouped explanatory variables; Rolling statistics of target lags.</p>
+            <p><b>Model</b>: Ensemble of gradient boosting regression trees for each local ID group.
+            <p><b>GitHub</b>: <a href="https://github.com/0liu/machine-learning/tree/master/01_m5-forecasting-accuracy" target="_blank">/machine-learning/tree/master/01_m5-forecasting-accuracy</a></p>
+            <p><b>Notebook</b>: <a href="https://nbviewer.org/github/0liu/machine-learning/blob/master/01_m5-forecasting-accuracy/m5_sales_accuracy_ensemble_gbt.ipynb" target="_blank">[m5_sales_accuracy_ensemble_gbt.ipynb]</a></p>
+            <a href="https://github.com/0liu/machine-learning/tree/master/01_m5-forecasting-accuracy" target="_blank"><img src="./m5_forecasting_accuracy.png" width=480 alt="M5 Forecasting - Accuracy"></img> </a>
+            <br/> <br/>
+
+          <!-- Bootstrapping price paths -->
+            <a href="https://github.com/0liu/bootstrap-price-time-series" target="_blank"><h1>Bootstrap Price Time Series</h1></a>
+            <p><b>Mission</b>: Explores time series bootstrapping methods to synthesize financial market price/return paths, which are useful for quantitative strategy development with robustness simulation and backtesting.</p>
+            <p><b>GitHub</b>: <a href="https://github.com/0liu/bootstrap-price-time-series" target="_blank">https://github.com/0liu/bootstrap-price-time-series</a></p>
+            <p><b>Notebook</b>: <a href="https://nbviewer.org/github/0liu/bootstrap-price-time-series/blob/master/bootstrap_price_time_series.ipynb" target="_blank">[Bootstrapping Price Time Series.ipynb]</a></p>
+            <a href="https://github.com/0liu/bootstrap-price-time-series" target="_blank"><img src="./bootstrap_synth_paths.png" width=640 alt="Bootstrapping Synthesized Price Paths"></img> </a>
+            <br/> <br/>
+
+        </ul>
+      </section>
+
+
+      <footer>
+        <p>
+          Find me on <a href="https://github.com/0liu" target="_blank">GitHub</a>,
+          or <a href="mailto:ning@ningliu.net">Drop me a line</a>.
+        </p>
+        <p>
+          All content copyright 2017-2020 Ning Liu.
+        </p>
+      </footer>
+
+    </div>
+
+  </body>
+</html>

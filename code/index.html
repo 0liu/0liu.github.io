@@ -1,0 +1,144 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Ning Liu's Code</title>
+    <meta id="viewport" name="viewport" content="width=500" />
+
+    <link rel="stylesheet" href="../theme/css/normalize.css" type="text/css" />
+    <link rel="stylesheet" href="../theme/css/base.css" type="text/css" />
+    <link rel="stylesheet" href="../theme/css/code.css" type="text/css" />
+
+    <link rel="icon" type="image/png" href="../theme/images/avatar.png" sizes="200x200">
+    <link rel="icon" type="image/png" href="../theme/images/favicon.png" sizes="32x32">
+  </head>
+
+
+  <body>
+
+    <div class="content">
+
+      <header>
+        <img src="../theme/images/avatar.jpg" alt="me">
+        <h1><a href="../index.html">Ning Liu</a></h1>
+        <ul>
+          <li><a href="../aboutme/index.html">About Me</a></li>
+          <li><a href="./index.html">Code</a></li>
+          <li><a href="../machine_learning/index.html">Machine Learning</a></li>
+          <li><a href="../signalprocessing/index.html">Signal Processing</a></li>
+          <li><a href="../index.html">Contact Me</a></li>
+        </ul>
+      </header>
+
+      <section>
+        <h3>Code</h3>
+        <p>
+          All my hobby projects live on <a href="https://github.com/0liu/" target="_blank">GitHub repositories</a>.  Here are some highlights:
+        </p>
+
+        <!-- <ul class="projects"> -->
+        <ul style="list-style-type:disc">    
+
+          <!-- BayesRobotLoc -->
+          <li>
+            <h2><a href="https://github.com/0liu/BayesRobotLoc" target="_blank">BayesRobotLoc</a></h2> is a C++11 simulation of Bayes filter
+            (a.k.a. Recursive Bayes Estimation) for robot localization. A simulation demo shows extended Kalman filter for position tracking with known correspondences, in comparison with
+            dead reckoning navigation technique. Artificial Gaussian noise is assumed and added in both control variables and measurements.
+            
+            <p>For details please visit: <a href="https://github.com/0liu/BayesRobotLoc" target="_blank">https://github.com/0liu/BayesRobotLoc</a></p>
+            <a href="https://github.com/0liu/BayesRobotLoc" target="_blank"><img src="./ekf_loc_demo.gif" width=640 alt="Extended Kalman Filter Demo"></img> </a>
+            <br/>
+          </li>
+
+          <!-- ISLR Python code -->
+          <li>
+            <h2><a href="https://github.com/0liu/ISLR" target="_blank">ISLR</a></h2> My code in Python 3 to duplicate the R code labs and exercises in the book
+            <i>An Introduction to Statistical Learning with Applications in R</i>
+            by James, Witten, Hastie, Tibshirani.<br  /><br />
+            For details please visit GitHub: <a href="https://github.com/0liu/ISLR" target="_blank">https://github.com/0liu/ISLR</a> <br /><br />
+
+            Jupyter notebooks:
+            <ul style="margin: 20px">
+              <li><a href="http://nbviewer.jupyter.org/github/0liu/ISLR/blob/master/Chapter%203%20Linear%20Regression.ipynb" target="_blank">Chapter 3 - Linear Regression</a></li>
+              <li><a href="http://nbviewer.jupyter.org/github/0liu/ISLR/blob/master/Chapter%204%20Classification.ipynb" target="_blank">Chapter 4 - Classification</a></li>
+              <li><a href="http://nbviewer.jupyter.org/github/0liu/ISLR/blob/master/Chapter%205%20Resampling%20Methods.ipynb" target="_blank">Chapter 5 - Resampling Methods</a></li>
+              <li><a href="http://nbviewer.jupyter.org/github/0liu/ISLR/blob/master/Chapter%206%20Linear%20Model%20Selection%20and%20Regularization.ipynb" target="_blank">Chapter 6 - Linear Model Selection and Regularization</a></li>
+              <li><a href="http://nbviewer.jupyter.org/github/0liu/ISLR/blob/master/Chapter%207%20Moving%20Beyond%20Linearity.ipynb" target="_blank">Chapter 7 - Moving Beyond Linearity</a></li>
+              <li><a href="http://nbviewer.jupyter.org/github/0liu/ISLR/blob/master/Chapter%208%20Tree-Based%20Methods.ipynb" target="_blank">Chapter 8 - Tree-Based Methods</a></li>
+              <li><a href="http://nbviewer.jupyter.org/github/0liu/ISLR/blob/master/Chapter%209%20Support%20Vector%20Machines.ipynb" target="_blank">Chapter 9 - Support Vector Machines</a></li>
+              <li><a href="http://nbviewer.jupyter.org/github/0liu/ISLR/blob/master/Chapter%2010%20Unsupervised%20Learning.ipynb" target="_blank">Chapter 10 - Unsupervised Learning</a></li>
+            </ul>
+          </li> 
+          
+          <!-- C++ STL data structures  -->
+          <li>
+            <h2><a href="https://github.com/0liu/STL_containers_algos" target="_blank">algos</a></h2> provides C++17 STL container implementation and examples of classic programming algorithms, including
+            <ul style="list-style-type: square; margin: 20px">
+              <li>Sequences: stack, linked list, linked stack, queue, linked queue and double-ended queue (deque).</li>
+              <li>Hash Map and hash set.<li>
+              <li>Trees: binary search tree, AVL tree, red-black tree.</li>
+              <li>Sorting: bubble, insert, merge, quick, counting, radix, bucket.</li>
+              <li>Dynamic programming.</li>
+            </ul>
+            <p>For details please visit GitHub: <a href="https://github.com/0liu/STL_containers_algos" target="_blank">https://github.com/0liu/STL_containers_algos</a></p>
+          </li> 
+
+          <!-- Ibstract -->
+          <li>
+            <h2><a href="https://github.com/0liu/ibstract"
+            target="_blank">ibstract</a></h2> is a Python 3 package for
+            asynchronous financial data acquiring and management, powered by
+            the <code>async/await</code> syntax provided by the concurrency
+            framework
+            <a href="https://docs.python.org/3/library/asyncio.html"
+            target="_blank">asyncio</a>
+            and <a href="https://github.com/aio-libs"
+            target="_blank">aio-libs</a> in Python 3.6. It interacts with both
+            remote broker API server and local MySQL database for efficient and
+            concurrent data download, query, and archiving. The goal is to
+            provide a hassle-free tool to obtain and operate on trading data on
+            demand without worrying about broker API and tedious data management
+            work, so users can focus on algorithm development.
+
+            <p>For details please visit GitHub: <a href="https://github.com/0liu/ibstract" target="_blank">https://github.com/0liu/ibstract</a></p>
+
+            Examples are shown in Jupyter notebooks:
+            <ul style="list-style-type: square; margin: 20px">
+              <li><a href="http://nbviewer.jupyter.org/github/0liu/ibstract/blob/master/examples/example_histdata.ipynb" target="_blank">Operation on historical data</a></li>
+              <li><a href="http://nbviewer.jupyter.org/github/0liu/ibstract/blob/master/examples/example_MarketDataBlock.ipynb" target="_blank">The MarketDataBlock class</a></li>
+              <li><a href="http://nbviewer.jupyter.org/github/0liu/ibstract/blob/master/examples/example_brokers.ipynb" target="_blank">The Broker class to access IB API</a></li>
+            </ul>
+          </li>
+
+
+          <!-- Swing Trading -->
+          <li>
+            <h2><a href="https://github.com/0liu/swing" target="_blank">Swing</a></h2> is a Python implementation of automatic swing trading execution algorithm.
+            <ul style="list-style-type: square; margin: 20px">
+            Features:
+              <li>Grid-based swing trading with automatic trailing stops.</li>
+              <li>Swing trading on pre-defined price zones, which can be determined by historical data analysis.</li>
+              <li>Adaptive order type to reduce timing risk with modes from more passive to more aggressive, used for long/short reversal, stop loss and profit taking.</li>
+            </ul>
+            <p>For details please visit GitHub: <a href="https://github.com/0liu/swing" target="_blank">https://github.com/0liu/swing</a></p>            
+          </li> 
+
+
+        </ul>
+      </section>
+
+
+      <footer>
+        <p>
+          Find me on <a href="https://github.com/0liu" target="_blank">GitHub</a>,
+          or <a href="mailto:ning@ningliu.net">Drop me a line</a>.
+        </p>
+        <p>
+          All content copyright 2017-2021 Ning Liu.
+        </p>
+      </footer>
+
+    </div>
+
+  </body>
+</html>

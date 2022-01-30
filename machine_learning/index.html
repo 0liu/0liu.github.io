@@ -33,22 +33,38 @@
       <section>
 
         <p>
-          Data science and predictive modeling code repo on GitHub: <a href="https://github.com/0liu/machine-learning" target="_blank"><b>machine-learning</b></a>
+          Machine learning and data science code repo on GitHub: <a href="https://github.com/0liu/machine-learning" target="_blank"><b>machine-learning</b></a>
         </p>
 
         <!-- <ul class="projects"> -->
         <ul style="list-style-type:disc">    
 
-          <!-- Catch Joe -->
-
-            <a href="https://github.com/0liu/machine-learning/tree/master/00_catch_joe" target="_blank"><h1>Catch Joe</h1></a>
-            <p><b>Mission</b>: Given a dataset of users activities of an online system, build a machine learning model that can identify a specific user with user_id=0 (codename Joe).</p>
-            <p><b>Key features</b>: Vectorized site visiting records, with TF-IDF N-Gram normalized to keep each user's site visiting order; User demographic features and client systems.</p>
-            <p><b>Model</b>: Random forest, gradient boosting, DNN.
-            <p><b>GitHub</b>: <a href="https://github.com/0liu/machine-learning/tree/master/00_catch_joe" target="_blank">/machine-learning/tree/master/00_catch_joe</a></p>
-            <p><b>Notebook</b>: <a href="https://nbviewer.org/github/0liu/machine-learning/blob/master/00_catch_joe/catch_joe.ipynb" target="_blank">[catch_joe.ipynb]</a></p>
-            <a href="https://github.com/0liu/machine-learning/tree/master/00_catch_joe" target="_blank"><img src="./catch_joe.png" width=480 alt="Catch Joe"></img> </a>
-            <br/> <br/>
+          <!-- G2Net gravitational wave detection -->
+            <a href="https://github.com/0liu/machine-learning/tree/master/03_G2Net_gravitational_wave_detection" target="_blank"><h1>G2Net Gravitational Wave Detection</h1></a>
+            <p><b>Mission</b>: This 2021 Kaggle competition aims to detect GW signals from the mergers of binary black holes, by building machine learning models to analyze simulated GW time-series data from 3 earth-based detectors.</p>
+            <p><b>Key features</b>: High-pass filtered signal samples.</p>
+            <p><b>Model</b>: 1-D CNN with batch normalization, GeM pooling and Silu activation layers.
+            <p><b>GitHub</b>: <a href="https://github.com/0liu/machine-learning/tree/master/03_G2Net_gravitational_wave_detection" target="_blank">/machine-learning/tree/master/03_G2Net_gravitational_wave_detection</a></p>
+            <p><b>Exploratory Data Analysis Notebook</b>: 
+              <a href="https://colab.research.google.com/github/0liu/machine-learning/blob/master/03_G2Net_gravitational_wave_detection/G2Net_gravitational_wave_detection_EDA.ipynb" target="_blank">
+                <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+              </a>              
+              <a href="https://nbviewer.org/github/0liu/machine-learning/blob/master/03_G2Net_gravitational_wave_detection/G2Net_gravitational_wave_detection_EDA.ipynb" target="_blank">
+                <img src="https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg" alt="Open In NBViewer"/>
+              </a>              
+              <a href="https://nbviewer.org/github/0liu/machine-learning/blob/master/03_G2Net_gravitational_wave_detection/G2Net_gravitational_wave_detection_EDA.ipynb" target="_blank">[G2Net_gravitational_wave_detection_EDA.ipynb]</a></p>
+            <p><b>Modeling Notebook</b>: 
+              <a href="https://colab.research.google.com/github/0liu/machine-learning/blob/master/03_G2Net_gravitational_wave_detection/G2Net_CNN1D_GeM_SGDW_Highpass.ipynb" target="_blank">
+                <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+              </a>              
+              <a href="https://nbviewer.org/github/0liu/machine-learning/blob/master/03_G2Net_gravitational_wave_detection/G2Net_CNN1D_GeM_SGDW_Highpass.ipynb" target="_blank">
+                <img src="https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg" alt="Open In NBViewer"/>
+              </a>               
+              <a href="https://nbviewer.org/github/0liu/machine-learning/blob/master/03_G2Net_gravitational_wave_detection/G2Net_CNN1D_GeM_SGDW_Highpass.ipynb" target="_blank">[G2Net_CNN1D_GeM_SGDW_Highpass.ipynb]</a></p>
+            <br/>
+            <a href="https://github.com/0liu/machine-learning/tree/master/03_G2Net_gravitational_wave_detection" target="_blank"><img src="./g2net_filtered_time_plot.png" width=480 alt="G2Net gravitational wave detection time plots"></img> </a>
+            <a href="https://github.com/0liu/machine-learning/tree/master/03_G2Net_gravitational_wave_detection" target="_blank"><img src="./g2net_filtered_spectrogram.png" width=480 alt="G2Net gravitational wave detection spectroms"></img> </a>
+            <br/><br/>
 
           <!-- Web traffic time series forecasting -->
             <a href="https://github.com/0liu/machine-learning/tree/master/02_web_traffic_time_series_forecasting" target="_blank"><h1>Web Traffic Time Series Forecasting</h1></a>
@@ -56,8 +72,22 @@
             <p><b>Key features</b>: Seasonality; log1p transformed visits; The medians of target lags.</p>
             <p><b>Model</b>: DNN with bagging. Wavenet.
             <p><b>GitHub</b>: <a href="https://github.com/0liu/machine-learning/tree/master/02_web_traffic_time_series_forecasting" target="_blank">/machine-learning/tree/master/02_web_traffic_time_series_forecasting</a></p>
-            <p><b>Exploratory Data Analysis Notebook</b>: <a href="https://nbviewer.org/github/0liu/machine-learning/blob/master/02_web_traffic_time_series_forecasting/web_traffic_forecasting_EDA.ipynb" target="_blank">[web_traffic_forecasting_EDA.ipynb]</a></p>
-            <p><b>Modeling Notebook</b>: <a href="https://nbviewer.org/github/0liu/machine-learning/blob/master/02_web_traffic_time_series_forecasting/web_traffic_forecasting_DNN.ipynb" target="_blank">[web_traffic_forecasting_DNN.ipynb]</a></p>
+            <p><b>Exploratory Data Analysis Notebook</b>: 
+              <a href="https://colab.research.google.com/github/0liu/machine-learning/blob/master/02_web_traffic_time_series_forecasting/web_traffic_forecasting_EDA.ipynb" target="_blank">
+                <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+              </a>              
+              <a href="https://nbviewer.org/github/0liu/machine-learning/blob/master/02_web_traffic_time_series_forecasting/web_traffic_forecasting_EDA.ipynb" target="_blank">
+                <img src="https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg" alt="Open In NBViewer"/>
+              </a>              
+              <a href="https://nbviewer.org/github/0liu/machine-learning/blob/master/02_web_traffic_time_series_forecasting/web_traffic_forecasting_EDA.ipynb" target="_blank">[web_traffic_forecasting_EDA.ipynb]</a></p>
+            <p><b>Modeling Notebook</b>: 
+              <a href="https://colab.research.google.com/github/0liu/machine-learning/blob/master/02_web_traffic_time_series_forecasting/web_traffic_forecasting_DNN.ipynb" target="_blank">
+                <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+              </a>              
+              <a href="https://nbviewer.org/github/0liu/machine-learning/blob/master/02_web_traffic_time_series_forecasting/web_traffic_forecasting_DNN.ipynb" target="_blank">
+                <img src="https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg" alt="Open In NBViewer"/>
+              </a>                 
+              <a href="https://nbviewer.org/github/0liu/machine-learning/blob/master/02_web_traffic_time_series_forecasting/web_traffic_forecasting_DNN.ipynb" target="_blank">[web_traffic_forecasting_DNN.ipynb]</a></p>
             <br/>
             <a href="https://github.com/0liu/machine-learning/tree/master/02_web_traffic_time_series_forecasting" target="_blank"><img src="./web_traffic_time_series_forecasting_dnn.png" width=480 alt="Web Traffic Time Series Forecasting"></img> </a>
             <br/><br/>
@@ -68,8 +98,33 @@
             <p><b>Key features</b>: Grouped explanatory variables; Rolling statistics of target lags.</p>
             <p><b>Model</b>: Ensemble of gradient boosting regression trees for each local ID group.
             <p><b>GitHub</b>: <a href="https://github.com/0liu/machine-learning/tree/master/01_m5-forecasting-accuracy" target="_blank">/machine-learning/tree/master/01_m5-forecasting-accuracy</a></p>
-            <p><b>Notebook</b>: <a href="https://nbviewer.org/github/0liu/machine-learning/blob/master/01_m5-forecasting-accuracy/m5_sales_accuracy_ensemble_gbt.ipynb" target="_blank">[m5_sales_accuracy_ensemble_gbt.ipynb]</a></p>
+            <p><b>Notebook</b>:
+            <a href="https://colab.research.google.com/github/0liu/machine-learning/blob/master/01_m5-forecasting-accuracy/m5_sales_accuracy_ensemble_gbt.ipynb" target="_blank">
+              <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+            </a>              
+            <a href="https://nbviewer.org/github/0liu/machine-learning/blob/master/01_m5-forecasting-accuracy/m5_sales_accuracy_ensemble_gbt.ipynb" target="_blank">
+              <img src="https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg" alt="Open In NBViewer"/>
+            </a>
+            <a href="https://nbviewer.org/github/0liu/machine-learning/blob/master/01_m5-forecasting-accuracy/m5_sales_accuracy_ensemble_gbt.ipynb" target="_blank">[m5_sales_accuracy_ensemble_gbt.ipynb]</a>
+            </p>
             <a href="https://github.com/0liu/machine-learning/tree/master/01_m5-forecasting-accuracy" target="_blank"><img src="./m5_forecasting_accuracy.png" width=480 alt="M5 Forecasting - Accuracy"></img> </a>
+            <br/> <br/>
+
+          <!-- Catch Joe -->
+            <a href="https://github.com/0liu/machine-learning/tree/master/00_catch_joe" target="_blank"><h1>Catch Joe</h1></a>
+            <p><b>Mission</b>: Given a dataset of users activities of an online system, build a machine learning model that can identify a specific user with user_id=0 (codename Joe).</p>
+            <p><b>Key features</b>: Vectorized site visiting records, with TF-IDF N-Gram normalized to keep each user's site visiting order; User demographic features and client systems.</p>
+            <p><b>Model</b>: Random forest, gradient boosting, DNN.
+            <p><b>GitHub</b>: <a href="https://github.com/0liu/machine-learning/tree/master/00_catch_joe" target="_blank">/machine-learning/tree/master/00_catch_joe</a></p>
+            <p><b>Notebook</b>:
+              <a href="https://colab.research.google.com/github/0liu/machine-learning/blob/master/00_catch_joe/catch_joe.ipynb" target="_blank">
+                <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+              </a>              
+              <a href="https://nbviewer.org/github/0liu/machine-learning/blob/master/00_catch_joe/catch_joe.ipynb" target="_blank">
+                <img src="https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg" alt="Open In NBViewer"/>
+              </a>              
+              <a href="https://nbviewer.org/github/0liu/machine-learning/blob/master/00_catch_joe/catch_joe.ipynb" target="_blank">[catch_joe.ipynb]</a></p>
+            <a href="https://github.com/0liu/machine-learning/tree/master/00_catch_joe" target="_blank"><img src="./catch_joe.png" width=480 alt="Catch Joe"></img> </a>
             <br/> <br/>
 
           <!-- Bootstrapping price paths -->
@@ -80,6 +135,8 @@
             <a href="https://github.com/0liu/bootstrap-price-time-series" target="_blank"><img src="./bootstrap_synth_paths.png" width=640 alt="Bootstrapping Synthesized Price Paths"></img> </a>
             <br/> <br/>
 
+
+            
         </ul>
       </section>
 

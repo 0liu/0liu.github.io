@@ -1,0 +1,96 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <title>Quantitative Trading</title>
+  <meta id="viewport" name="viewport" content="width=500" />
+
+  <link rel="stylesheet" href="../theme/css/normalize.css" type="text/css" />
+  <link rel="stylesheet" href="../theme/css/base.css" type="text/css" />
+  <link rel="stylesheet" href="../theme/css/code.css" type="text/css" />
+
+  <link rel="icon" type="image/png" href="../theme/images/avatar.jpg" sizes="200x200">
+  <link rel="icon" type="image/png" href="../theme/images/favicon.png" sizes="32x32">
+</head>
+
+
+<body>
+
+  <div class="content">
+
+    <header>
+      <img src="../theme/images/avatar.jpg" alt="me">
+      <h1><a href="../index.html">Ning Liu</a></h1>
+      <ul>
+        <li><a href="../aboutme/index.html">About Me</a></li>
+        <li><a href="../code/index.html">Code</a></li>
+        <li><a href="../machine_learning/index.html">Machine Learning</a></li>
+        <li><a href="./index.html">Quant Trading</a></li>
+        <li><a href="../signal_processing/index.html">Signal Processing</a></li>
+        <li><a href="../index.html">Contact Me</a></li>
+      </ul>
+    </header>
+
+    <section id="projects">
+      <!-- <ul class="projects"> -->
+      <ul style="list-style-type:disc">
+
+        <!-- Bootstrapping price paths -->
+        <a href="https://github.com/0liu/bootstrap-price-time-series" target="_blank">
+          <h2>Bootstrap Price Time Series</h2>
+        </a>
+        <p><b>Mission</b>: Explores time series bootstrapping methods to synthesize financial market price/return paths,
+          which are useful for quantitative strategy development with robustness simulation and backtesting.</p>
+        <p><b>GitHub</b>: <a href="https://github.com/0liu/bootstrap-price-time-series"
+            target="_blank">https://github.com/0liu/bootstrap-price-time-series</a></p>
+        <p><b>Notebook</b>: <a
+            href="https://nbviewer.org/github/0liu/bootstrap-price-time-series/blob/master/bootstrap_price_time_series.ipynb"
+            target="_blank">[Bootstrapping Price Time Series.ipynb]</a></p>
+        <a href="https://github.com/0liu/bootstrap-price-time-series" target="_blank"><img
+            src="./bootstrap_synth_paths.png" width=640 alt="Bootstrapping Synthesized Price Paths"></img> </a>
+        <br /> <br />
+
+        <!-- Build LOB -->
+        <li>
+          <h2><a href="https://github.com/0liu/BuildLOB" target="_blank">Build Limit Order Book</a></h2> An efficient C++ implementation to build level-2 limit order book from level-3 CME market-by-order (MBO) events.
+          <p>Repo: <a href="https://github.com/0liu/BuildLOB" target="_blank">https://github.com/0liu/BuildLOB</a></p>
+        </li>
+
+        <!-- tardis client -->
+        <li>
+          <h2><a href="https://github.com/0liu/tardis-client" target="_blank">Tardis.dev Replay Client with Live Streaming</a></h2> A Python client to connect to Tardis.dev cryptocurrency market data replay server, which provides both historical data replay and live streaming of market data. It can be integrated with backtesting frameworks for strategy development and testing.
+          <p>Repo: <a href="https://github.com/0liu/tardis-client" target="_blank">https://github.com/0liu/tardis-client</a></p>
+
+        <!-- Swing Trading -->
+        <li>
+          <h2><a href="https://github.com/0liu/swing" target="_blank">Swing</a></h2> is a Python module of automatic swing trading execution algorithm.
+          <ul style="list-style-type: square; margin: 20px">
+          Features:
+            <li>Grid-based swing trading with automatic trailing stops.</li>
+            <li>Swing trading on pre-defined price zones, which can be determined by historical data analysis.</li>
+            <li>Adaptive order type to reduce timing risk with modes from more passive to more aggressive, used for long/short reversal, stop loss and profit taking.</li>
+          </ul>
+          <p>For details please visit GitHub: <a href="https://github.com/0liu/swing" target="_blank">https://github.com/0liu/swing</a></p>
+        </li>
+
+
+      </ul>
+    </section>
+
+
+
+    <footer>
+      <p>
+        Find me on <a href="https://github.com/0liu" target="_blank">GitHub</a>.
+      </p>
+      <p>
+        All content copyright 2017-2024 Ning Liu.
+      </p>
+    </footer>
+
+  </div>
+
+</body>
+
+</html>
